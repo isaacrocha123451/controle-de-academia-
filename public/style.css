@@ -289,6 +289,8 @@ tbody td:nth-child(2) span {
     
 }
 
+/* pagination */
+
 .table-container {
     display: grid;
     grid-template: 64px 1fr 16px / 1fr ;
@@ -297,6 +299,10 @@ tbody td:nth-child(2) span {
 .table-container .header{
     margin: 0;
     align-self: start;
+}
+.table-container .pagination{
+    margin:0;
+    align-self: end;
 }
 
 .pagination {
@@ -315,6 +321,8 @@ tbody td:nth-child(2) span {
     border-bottom: 1px solid var(--primary-color);
 
 }
+
+
 
 
 
